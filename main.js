@@ -417,7 +417,7 @@ function draw() {
   //Send uniforms to program
   gl.uniform1f(timeHandle, time);
   //Draw a triangle strip connecting vertices 0-4
-  gl.drawArrays(gl.TRIANGLE_STRIP, 0, 5);
+  gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
 
   requestAnimationFrame(draw);
 }
